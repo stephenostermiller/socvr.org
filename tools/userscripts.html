@@ -1,0 +1,115 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+    <title>Userscripts - SOCVR</title>
+
+    <link rel="shortcut icon" href="/favicon.ico?v=9B3qFYeTuPgqHf2tzSyzHRyyagZ0Ew0bIvEmh9I1l84" />
+    <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+<body>
+    
+
+<div id="navigation">
+        <nav>
+                <a class="nav-item" href="/">Home</a>
+                <a class="nav-item" href="/tour">Tour</a>
+                <a class="nav-item" href="/faq">FAQ</a>
+                <a class="nav-item" href="/tools/userscripts">Tools</a>
+                <a class="nav-item" href="/room-info/history">Room Info</a>
+        </nav>
+        <nav>
+                <a class="nav-item" href="/tools/userscripts">Userscripts</a>
+                <a class="nav-item" href="/tools/sede-queries">SEDE Queries</a>
+        </nav>
+</div>
+
+
+<div id="content">
+    <h1>Userscripts</h1>
+<p>There are a bunch of <a href="https://stackapps.com/questions/tagged/script" title="userscripts and browser extensions on Stack Apps">useful userscripts for Stack Overflow out there</a>. Userscripts add functionality to the site by running scripts in your browser. All major browsers support userscripts by installing a userscript manager extension, for example <a href="https://tampermonkey.net/">Tampermonkey</a> or <a href="https://violentmonkey.github.io/">Violentmonkey</a>.</p>
+<ul>
+<li><a href="https://greasyfork.org/en/help/installing-user-scripts">How to install a userscript?</a></li>
+<li>With <a href="https://www.tampermonkey.net/">Tampermonkey</a>, <a href="https://violentmonkey.github.io/">Violentmonkey</a>, or <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a> installed, from a GitHub userscript page you can <a href="/images/75kID.gif" title="GIF showing what happens in Tampermonkey when you click the 'Raw' button">click the &quot;Raw&quot; button</a>. (Greasemonkey is recommended against, due to general userscript compatibility issues.)</dd></li>
+</ul>
+<h3><a id="our-scripts" href="#our-scripts" class="hover-visible"></a>Our own scripts</h3>
+<h5>See <a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts">our GitHub userscript repository</a> with the full list of our scripts!</h5>
+<h5><a id="our-commonly-used-scripts" href="#our-commonly-used-scripts" class="hover-visible"></a>Our most commonly used scripts</h5>
+<ul>
+<li><a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts#user-content-so-close-vote-request-generator" title="instructions in our GitHub repository">*-pls Request Generator</a>  <sup><sub>(<a href="//github.com/SO-Close-Vote-Reviewers/UserScripts/blob/master/SECloseVoteRequestGenerator.user.js">GitHub</a>)</sub></sup> <sup><sub>(<a href="//github.com/SO-Close-Vote-Reviewers/UserScripts/raw/master/SECloseVoteRequestGenerator.user.js">install</a>)</sub></sup>
+<ul>
+<li>This userscript is the primary method of posting <code>cv-pls</code> requests to SOCVR.</li>
+<li>It adds a link under each question, so you can send a <code>cv-pls</code> to a chatroom (e.g. SOCVR).</li>
+<li><s>When you're unable to install userscripts, limited functionality is <a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts#user-content-creating-the-bookmarklet">available as a bookmarklet</a>. However, the bookmarklet has not been updated in some time, so may not be functional, due to changes made by Stack Exchange to their pages.</s> The bookmarklet is not currently functional.</li>
+<li><strong>Greasemonkey users:</strong> There there are some incompatibilities. From what people have reported, it will mostly function, but there are limitations. Makyen recommends against using Greasemonkey due to general compatibility issues with a large number of userscripts. It is <a href="https://chat.stackoverflow.com/transcript/41570?m=49330127#49330127">recommended that you use a different userscript manager</a> and run the version of the Request Generator linked earlier.</li>
+</ul>
+</li>
+<li><a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts#user-content-magic-editor" title="instructions in our GitHub repository">Magic™ Editor</a>  <sup><sub>(<a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts/blob/master/Magic%E2%84%A2Editor.user.js">GitHub</a>)</sub></sup> <sup><sub>(<a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts/raw/master/Magic%E2%84%A2Editor.user.js">install</a>)</sub></sup>
+<ul>
+<li>While you're editing a post, one click fixes the most common spelling and grammar mistakes.</li>
+</ul>
+</li>
+<li>Unclosed Request Review Script  <sup><sub>(<a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts/blob/master/UnclosedRequestReview.user.js">GitHub</a>)</sub></sup> <sup><sub>(<a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts/raw/master/UnclosedRequestReview.user.js">install</a>)</sub></sup>
+<ul>
+<li>Enhances the display of requests and question links in the main chat page.</li>
+<li>Provides brief question and answer status in the main chat window.</li>
+<li>Indicates on the main chat page which requests are complete.</li>
+<li>Enhances the search pages for <code>cv-pls</code>, <code>reopen-pls</code>, and <code>del-pls</code> requests, giving more detailed status, sorting, filtering, etc. Allows you to focus only on the open requests meeting the criteria you desire to work on.</li>
+</ul>
+</li>
+<li>Review Finder  <sup><sub>(<a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts/blob/master/ReviewFinder.user.js">GitHub</a>)</sub></sup> <sup><sub>(<a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts/raw/master/ReviewFinder.user.js">install</a>)</sub></sup>
+<ul>
+<li>finds the review of a post by searching for the post's id in the current review queue's history.</li>
+</ul>
+</li>
+<li>Close Vote Review Shortcuts  <sup><sub>(<a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts/blob/master/CloseVoteShortcuts.user.js">GitHub</a>)</sub></sup> <sup><sub>(<a href="https://github.com/SO-Close-Vote-Reviewers/UserScripts/raw/master/CloseVoteShortcuts.user.js">install</a>)</sub></sup>
+<ul>
+<li>adds keyboard shortcuts in the close-vote review-queue and close dialog, so your hands never have to leave the keyboard</li>
+</ul>
+</li>
+</ul>
+<h3><a id="endorsed-scripts" href="#endorsed-scripts" class="hover-visible"></a>Endorsed scripts</h3>
+<ul>
+<li><a href="http://stackapps.com/questions/2116/autoreviewcomments-pro-forma-comments-for-se" title="description and instructions on Stack Apps">AutoReviewComments</a>  <sup><sub>(<a href="https://github.com/Benjol/SE-AutoReviewComments">GitHub</a>)</sub></sup> <sup><sub>(<a href="https://raw.github.com/Benjol/SE-AutoReviewComments/master/dist/autoreviewcomments.user.js">install</a>)</sub></sup>
+<ul>
+<li>You can use <a href="https://github.com/SO-Close-Vote-Reviewers/auto-comments">our collection of comments</a>, or create your own.</li>
+</ul>
+</li>
+<li>Magic™ Tag Review 2  <sup><sub>(<a href="https://github.com/Tiny-Giant/myuserscripts/blob/master/MagicTagReview2.user.js">GitHub</a>)</sub></sup> <sup><sub>(<a href="https://github.com/Tiny-Giant/myuserscripts/raw/master/MagicTagReview2.user.js">install</a>)</sub></sup>
+<ul>
+<li>Review questions in a tag with filtering on multiple criteria, including by close votes and delete votes</li>
+</ul>
+</li>
+<li><a href="https://stackapps.com/questions/7239/roomba-forecaster-when-will-the-question-be-roombaed-if-it-wont-why" title="description and instructions on Stack Apps">Roomba Forecaster</a>  <sup><sub>(<a href="https://github.com/makyen/StackExchange-userscripts/blob/master/Roomba-Forecaster/RoombaForecaster.user.js">GitHub</a>)</sub></sup> <sup><sub>(<a href="https://github.com/makyen/StackExchange-userscripts/raw/master/Roomba-Forecaster/RoombaForecaster.user.js">install</a>)</sub></sup>
+<ul>
+<li>Tells the user if the question is eligible for being deleted by the <a href="http://stackoverflow.com/help/roomba">Roomba</a>.</li>
+</ul>
+</li>
+</ul>
+<h3><a id="additional-scripts" href="#additional-scripts" class="hover-visible"></a>Additional Stack Exchange userscripts</h3>
+<ul>
+<li><a href="https://charcoal-se.org/scripts">Charcoal HQ userscripts</a>  <sup><sub>(<a href="https://github.com/Charcoal-SE/userscripts">GitHub</a>)</sub></sup>
+<ul>
+<li>scripts to provide feedback to <a href="https://charcoal-se.org/#whats-smokey">SmokeDetector</a> (<a href="https://github.com/Charcoal-SE/SmokeDetector/wiki">wiki</a>), among other things</li>
+<li>The ones to provide feedback to SmokeDetector require a <a href="https://github.com/Charcoal-SE/Userscripts/wiki/FDSC#user-content-what-do-i-need-to-use-fdsc">review-approved Metasmoke account</a>, in addition to being <a href="https://socvr.org/faq#what-is-smoke-detector-and-how-can-i-participate">authorized to use SmokeDetector</a>.</li>
+</ul>
+</li>
+<li><a href="https://stackapps.com/questions/tagged/script">Stack Apps</a>
+<ul>
+<li>wide variety of userscripts/browser extensions for Stack Exchange</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+
+</body>
+</html>
