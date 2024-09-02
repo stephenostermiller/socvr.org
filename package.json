@@ -1,0 +1,30 @@
+{
+  "name": "socvr.org",
+  "version": "1.0.0",
+  "description": "socvr.org website (for GitHub pages)",
+  "main": "index.js",
+  "scripts": {
+    "build": "concurrently \"npm:build-css\" \"npm:build-images\" \"npm:build-ejs\"",
+    "build-ejs": "ejsc ./pages/**/*.ejs -o ./dist",
+    "watch-ejs": "ejsc ./pages/**/*.ejs -o ./dist --watch",
+    "build-css": "ncp ./css ./dist",
+    "build-images": "ncp ./images ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SO-Close-Vote-Reviewers/socvr.org.git"
+  },
+  "author": "SOCVR contributors",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SO-Close-Vote-Reviewers/socvr.org/issues"
+  },
+  "homepage": "https://github.com/SO-Close-Vote-Reviewers/socvr.org#readme",
+  "dependencies": {
+    "@wcj/ejs-cli": "^1.6.0",
+    "concurrently": "^8.2.2",
+    "ejs": "^3.1.10",
+    "marked": "^14.1.0",
+    "ncp": "^2.0.0"
+  }
+}
