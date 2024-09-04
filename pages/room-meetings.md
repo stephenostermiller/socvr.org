@@ -1,6 +1,6 @@
 # Room Meetings
 
-## February 2020
+## <a id="2020-02" href="#2020-02" class="hover-visible"></a>February 2020
 
 [Starting message of the meeting](https://chat.stackoverflow.com/transcript/message/48573824#48573824)
 
@@ -22,7 +22,7 @@ The second part was about how we would implement the strike as a room.
 Per [starboard vote](/images/YnxDo.png) the resolution was for freezing the room for the duration of the strike.
 Regular users would be invited into the Ministry of Silly Hats (off-topic chat).
 
-## April 2019
+## <a id="2020-02" href="#2020-02" class="hover-visible"></a>April 2019
 
 [Starting message of the meeting](https://chat.stackoverflow.com/transcript/message/46037746#46037746)
 
@@ -67,7 +67,7 @@ While it was preferable that the OP be convinced to request a bin, consensus was
 
 A suggestion had been made that the FAQ page rules are in a clunky list. Machavity had suggested a new format. There were some issues raised that could not be resolved within the short time of a meeting topic. As such, the decision was made to work through the issues within the GitHub system to rewrite the FAQ page
 
-## August 2018
+## <a id="2018-08" href="#2018-08" class="hover-visible"></a>August 2018
 
 [Starting message of the meeting](https://chat.stackoverflow.com/transcript/108179?m=43713277#43713277)
 
@@ -157,7 +157,7 @@ We will adopt the following guidelines for request reasons:
   * "No MCVE: no code"
   * "Typo: see 5th line of 2nd code block: `foo` should be `bar`. Confirmed by OP in comments."
 
-## November 2017
+## <a id="2017-11" href="#2017-11" class="hover-visible"></a>November 2017
 
 [Starting message of the meeting](https://chat.stackoverflow.com/transcript/108179?m=39907030#39907030)
 
@@ -197,7 +197,7 @@ Pinging mods engaged in general conversation is acceptable; Pinging mods for any
 
  the decision is to disallow it for now but remain open to the subject being revisited in the future when/if there is more info available from mods/employees.  We ask Meta as well
 
-## May 2017
+## <a id="2017-04" href="#2017-04" class="hover-visible"></a>May 2017
 
 [Starting message of the meeting](http://chat.stackoverflow.com/transcript/message/37371457#37371457)
 
@@ -236,7 +236,7 @@ We should ask bot authors to make sure their code doesn't flood the room with me
 
 It's been decided that we should leverage GitHub issues and simply communicate about them in the room.
 
-## January 2017
+## <a id="2017-01" href="#2017-01" class="hover-visible"></a>January 2017
 
 [Starting message of the meeting](http://chat.stackoverflow.com/transcript/message/35133411#35133411).
 
@@ -286,7 +286,7 @@ The network as a whole has policies that control discussion (Be Nice). The room 
 
 At the request of any RO, we should stop discussion of a given topic or move it elsewhere.
 
-## October 2016
+## <a id="2016-10" href="#2016-10" class="hover-visible"></a>October 2016
 
 [Bookmark of the room meeting](https://chat.stackoverflow.com/rooms/108179/conversation/october-2016-room-meeting).
 
@@ -326,7 +326,7 @@ Let alone we can't do that effectively, we don't even want to do that. People ou
 
 If we need an RO in the room 24/7 then something is rotten in the room, and if we can't make this room work with all of us it is not going to work with just some RO's around.
 
-## August 2016
+## <a id="2016-08" href="#2016-08" class="hover-visible"></a>August 2016
 
 [Bookmark of the room meeting](https://chat.stackoverflow.com/rooms/108179/conversation/august-2016-room-meeting).
 
@@ -365,7 +365,7 @@ That said, [on Main, you don't say anything unless someone directly asks. On Met
 We will only moderate Docs [for rude, abusive, spam and plagiarism](http://chat.stackoverflow.com/transcript/message/32060300#32060300). [There won't be any moderation of low-quality, off-topic or otherwise incorrect examples.](http://chat.stackoverflow.com/transcript/message/32060327#32060327)
 
 
-## April 2016
+## <a id="2016-04" href="#2016-04" class="hover-visible"></a>April 2016
 
 ### Agenda
 
@@ -433,10 +433,10 @@ We will only moderate Docs [for rude, abusive, spam and plagiarism](http://chat.
 
 [I think burninations should not be chatroom dependent. If a chat room wants to donate it's resources, that's great. A meta answer should be the main hub for burnination coordination.](http://chat.stackoverflow.com/rooms/108179/conversation/2016-april-topic-11)
 
-## December 2015
+## <a id="2015-12" href="#2015-12" class="hover-visible"></a>December 2015
 
 The transcript is [here](http://chat.stackoverflow.com/rooms/41570/conversation/december-2015-room-meeting)
 
-## November 2015
+## <a id="2015-11" href="#2015-11" class="hover-visible"></a>November 2015
 
 The transcript is [here](http://chat.stackoverflow.com/rooms/41570/conversation/november-2015-room-meeting)

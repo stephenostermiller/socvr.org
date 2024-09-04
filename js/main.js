@@ -26,7 +26,24 @@ document.addEventListener("DOMContentLoaded", function(){
 		document.getElementById("navigation").prepend(nav)
 		path = path.replace(/[^\/]*\/$/g,"")
 	}
-	
+
+	// Redirects
+	var path = location.pathname
+	path = path.replace(/[^\/]*$/g,"")
+	while (path != ""){
+		fetch(location.origin+"/pages"+path+"_redirect.csv").then(response=>{
+			response.text().then(text=>{
+				text.split(/\n/).forEach(function(line){
+					var m = line.match('^([^,]+),([a-z0-9.#\/\-]+)$')
+					if (m){
+						if (location.pathname == m[1]) location.href=m[2]
+					}
+				})
+			})				
+		})
+		path = path.replace(/[^\/]*\/$/g,"")
+	}
+
 	// Client side routing and markdown
 	var url = location.origin + "/"
 	var path = location.pathname.replace(/\.html$/,"")

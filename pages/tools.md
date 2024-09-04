@@ -1,6 +1,6 @@
 # Tools
 
-## Userscripts
+## <a id="userscripts" href="#userscripts" class="hover-visible"></a>Userscripts
 
 There are a bunch of [useful userscripts for Stack Overflow out there](https://stackapps.com/questions/tagged/script "userscripts and browser extensions on Stack Apps"). Userscripts add functionality to the site by running scripts in your browser. All major browsers support userscripts by installing a userscript manager extension, for example [Tampermonkey](https://tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/).
 
@@ -49,7 +49,7 @@ There are a bunch of [useful userscripts for Stack Overflow out there](https://s
 - [Stack Apps](https://stackapps.com/questions/tagged/script)
   - wide variety of userscripts/browser extensions for Stack Exchange
 
-## SEDE Queries
+## <a id="sede-queries" href="#sede-queries" class="hover-visible"></a>SEDE Queries
 
 There are a lot of useful and interesting StackExchange Data Explorer queries. Here are just a few of them:
 
