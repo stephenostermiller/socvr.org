@@ -11,7 +11,9 @@
  - delete voting
  - feeding the [roomba](https://meta.stackexchange.com/questions/173513/turbocharging-the-roomba-solutions-for-premature-deletion).
 
-## Can we chat?
+The chat is primarily used to make and review [specially formatted](/faq.html#how-and-why-do-i-need-to-format-my-cv-pls-and-other-requests) close vote requests.
+
+## Can we also chat with each other?
 
 <img align="right" src="/images/J9bqw.png" width="40%">
 
