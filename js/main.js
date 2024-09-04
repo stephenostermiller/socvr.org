@@ -35,16 +35,14 @@ document.addEventListener("DOMContentLoaded", function(){
 			response.text().then(text=>{
 				text.split(/\n/).forEach(function(line){
 					var m = line.match('^([^,]+),([a-z0-9.#\/\-]+)$')
-					if (m){
-						if (location.pathname == m[1]) location.href=m[2]
-					}
+					if (m && location.pathname == m[1]) location.href=m[2]
 				})
 			})				
 		})
 		path = path.replace(/[^\/]*\/$/g,"")
 	}
 
-	// Client side routing and markdown
+	// Client side markdown
 	var url = location.origin + "/"
 	var path = location.pathname.replace(/\.html$/,"")
 	if (/\/$/.test(path)) path += "index"
