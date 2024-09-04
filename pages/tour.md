@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to SOCVR!</h1>
+# Welcome to SOCVR!
 
 **S**tack **O**verflow **C**lose **V**ote **R**eviewers is a [Stack Overflow chat room](https://chat.stackoverflow.com/faq) hosting a community of users who are dedicated to improving Stack Overflow through curation of posts on the site.
 
