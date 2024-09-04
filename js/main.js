@@ -54,8 +54,16 @@ document.addEventListener("DOMContentLoaded", function(){
 			text = "# 404 Not Found\n\nContent for this URL was not found on this server."
 		}
 		if (m = /^# ([^\r\n]*)/.exec(text)){
+			// Set the page title
 			document.querySelector('title').innerText = m[1] + " | socvr.org"
 		}
+		// Render the markdown
 		document.getElementById('content').innerHTML = window.markdownit({html:true}).render(text).replace(/\$URL\$/,url)
+
+		// Scroll to anchor links from the url hash fragment
+		if (m = /^\#([a-zA-Z0-9\-]+)$/.exec(location.hash||"")){
+			var anchor = document.getElementById(m[1])
+			if (anchor) anchor.scrollIntoView(true)
+		}
 	})
 })
