@@ -1,5 +1,4 @@
 # .htaccess is for when this site is hosted with apache
-# _redirects is for when this site is hosted with github pages
 
 AddType text/html;charset=UTF-8 .html
 
