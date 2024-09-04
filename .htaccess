@@ -3,11 +3,11 @@
 
 AddType text/html;charset=UTF-8 .html
 
-DirectoryIndex index.html /html/markdown.html
+DirectoryIndex index.html
 
 RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} ^\/?([a-z\/0-9\-]+(?:\.html)?)$
-RewriteRule ^ /html/markdown.html [L]
+RewriteRule ^ /index.html [L]
