@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		fetch(location.origin+"/pages"+path+"_nav.csv").then(response=>{
 			response.text().then(text=>{
 				text.split(/\n/).forEach(function(line){
-					var m = line.match('^([^,#]+),([a-z0-9.\/\-]+)$')
+					var m = line.match('^([^,#]+),([a-z0-9#:.\/\-]+)$')
 					if (m){
 						var href = m[2]
 						var link = document.createElement("a")
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		fetch(location.origin+"/pages"+path+"_redirect.csv").then(response=>{
 			response.text().then(text=>{
 				text.split(/\n/).forEach(function(line){
-					var m = line.match('^([^,]+),([a-z0-9.#\/\-]+)$')
+					var m = line.match('^([^,]+),([a-z0-9.#:\/\-]+)$')
 					if (m && location.pathname == m[1]) location.href=m[2]
 				})
 			})				
