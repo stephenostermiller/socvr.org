@@ -22,7 +22,7 @@ The second part was about how we would implement the strike as a room.
 Per [starboard vote](/images/YnxDo.png) the resolution was for freezing the room for the duration of the strike.
 Regular users would be invited into the Ministry of Silly Hats (off-topic chat).
 
-## <a id="2020-02" href="#2020-02" class="hover-visible"></a>April 2019
+## <a id="2019-04" href="#2019-04" class="hover-visible"></a>April 2019
 
 [Starting message of the meeting](https://chat.stackoverflow.com/transcript/message/46037746#46037746)
 
