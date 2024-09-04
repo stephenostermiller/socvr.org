@@ -103,7 +103,7 @@ Other request types were not explicitly discussed.
 
 Some people felt that what was decided was that the above items should completely replace FAQ #15. In addition, that it should replace much, if not all, of [FAQ #11](/faq#not-habit). Other people felt that these were supposed to be minimal modifications to FAQ #15, with no change to FAQ #11.
 
-If the above items did replace FAQ #15, then it would, among other things, be permitted for users to `del-pls` other people's answers on questions you've answered. That's, obviously, unacceptable, as it clearly violates the overall intent of not permitting requests where there's a conflict of interest. Another example is that it would permit `approve-pls` requests on your own edits, which is something that had quite a bit of opposition when it was specifically discussed in a room meeting ([see #6 of the November 2017 room meeting](/room-info/room-meetings/2017-11)).
+If the above items did replace FAQ #15, then it would, among other things, be permitted for users to `del-pls` other people's answers on questions you've answered. That's, obviously, unacceptable, as it clearly violates the overall intent of not permitting requests where there's a conflict of interest. Another example is that it would permit `approve-pls` requests on your own edits, which is something that had quite a bit of opposition when it was specifically discussed in a room meeting ([see #6 of the November 2017 room meeting](/room-meetings.html#2017-11)).
 
 As to the replacement, or adjusting, of #11, it did not appear that most people really understood that was the effect of directly adopting the above items.
 
