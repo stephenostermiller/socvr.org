@@ -1,0 +1,5 @@
+# .htaccess is for when this site is hosted with apache
+# _redirects is for when this site is hosted with github pages
+
+# https://docs.gitlab.com/ee/user/project/pages/redirects.html#rewrite-all-requests-to-a-root-indexhtml
+/*    /html/markdown.html  200

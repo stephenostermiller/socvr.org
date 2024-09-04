@@ -16,10 +16,10 @@ Room Owners [prepared a letter about the underlying issues](https://gist.github.
 The letter mostly restated the drama of the previous months and where ROs felt things were heading at the time.
 
 The first part was about if SOCVR should participate in a proposed moderator strike. 
-A starboard vote was taken and [the results were 12-4-4 in favor of a strike](https://i.stack.imgur.com/AxIsl.png) if one were called.
+A starboard vote was taken and [the results were 12-4-4 in favor of a strike](/images/AxIsl.png) if one were called.
 
 The second part was about how we would implement the strike as a room. 
-Per [starboard vote](https://i.stack.imgur.com/YnxDo.png) the resolution was for freezing the room for the duration of the strike.
+Per [starboard vote](/images/YnxDo.png) the resolution was for freezing the room for the duration of the strike.
 Regular users would be invited into the Ministry of Silly Hats (off-topic chat).
 
 ## April 2019
@@ -38,23 +38,23 @@ Regular users would be invited into the Ministry of Silly Hats (off-topic chat).
 
 ### Resolutions
 
-#### 1. [When should queues be allowed to avoid the "recent" rule?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-1) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/29))</sup></sub> <sub><sup>([Stars](https://i.stack.imgur.com/LUk3a.png))</sup></sub>
+#### 1. [When should queues be allowed to avoid the "recent" rule?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-1) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/29))</sup></sub> <sub><sup>([Stars](/images/LUk3a.png))</sup></sub>
 
 While there were concerns about possible abuse, the general consensus was that a Suggested Edit makes a question "active" for our purposes in SOCVR. CVQ entries do not.
 
-#### 2. [How should we deal with requests related to Meta discussions?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-2) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/28))</sup></sub> <sub><sup>([Stars](https://i.stack.imgur.com/fRb95.png))</sup></sub>
+#### 2. [How should we deal with requests related to Meta discussions?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-2) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/28))</sup></sub> <sub><sup>([Stars](/images/fRb95.png))</sup></sub>
 
 The general consensus was that topics on Meta should disallow any requests from being made, since we do not want the room dragged into Meta effect, especially without other users knowing about it. The rule applies only if you already know of a Meta involving the question.
 
-#### 3. [Should (limited) re-posting of an expired *-pls request be allowed?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-3) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/27))</sup></sub> <sub><sup>([Stars](https://i.stack.imgur.com/pIKnx.png))</sup></sub>
+#### 3. [Should (limited) re-posting of an expired *-pls request be allowed?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-3) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/27))</sup></sub> <sub><sup>([Stars](/images/pIKnx.png))</sup></sub>
 
 There were several varying opinions raised on this. Some held that we should not allow reposts. Some held that it was impractical to police every request so let anyone repost at will. Still a third option was to allow one repost. After some discussion, consensus was around letting only one repost (generally relying on the honor system).
 
-#### 4. [Should SOCVR encourage cleanup of canonical questions?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-4) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/26))</sup></sub>  <sub><sup>([Stars](https://i.stack.imgur.com/UnVel.png))</sup></sub>
+#### 4. [Should SOCVR encourage cleanup of canonical questions?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-4) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/26))</sup></sub>  <sub><sup>([Stars](/images/UnVel.png))</sup></sub>
 
 While a general `del-pls` can always be posted, actual cleanups of canonical questions requires domain knowledge. Consensus was that full canonical cleanups are not something SOCVR will participate in.
 
-#### 5. [Should 'bad' or 'wrong' *-pls requests be binnable with some 3rd party user consensus?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-5) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/24))</sup></sub> <sub><sup>([Stars](https://i.stack.imgur.com/rtwCa.png))</sup></sub>
+#### 5. [Should 'bad' or 'wrong' *-pls requests be binnable with some 3rd party user consensus?](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-5) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/24))</sup></sub> <sub><sup>([Stars](/images/rtwCa.png))</sup></sub>
 
 While it was preferable that the OP be convinced to request a bin, consensus was that a bin could be forced if
 
@@ -63,7 +63,7 @@ While it was preferable that the OP be convinced to request a bin, consensus was
   * An RO agreed with the room reasoning (as always, ROs are the final say either way)
   
 
-#### 6. [FAQ page rewrite](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-6) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/30))</sup></sub> <sub><sup>([Stars](https://i.stack.imgur.com/6rXux.png))</sup></sub>
+#### 6. [FAQ page rewrite](https://chat.stackoverflow.com/rooms/108179/conversation/april-2019-topic-6) <sub><sup>([GitHub issue](https://github.com/SO-Close-Vote-Reviewers/room-meeting-topics/issues/30))</sup></sub> <sub><sup>([Stars](/images/6rXux.png))</sup></sub>
 
 A suggestion had been made that the FAQ page rules are in a clunky list. Machavity had suggested a new format. There were some issues raised that could not be resolved within the short time of a meeting topic. As such, the decision was made to work through the issues within the GitHub system to rewrite the FAQ page
 

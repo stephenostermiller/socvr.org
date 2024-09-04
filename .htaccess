@@ -1,0 +1,13 @@
+# .htaccess is for when this site is hosted with apache
+# _redirects is for when this site is hosted with github pages
+
+AddType text/html;charset=UTF-8 .html
+
+DirectoryIndex index.html /html/markdown.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^\/?([a-z\/0-9\-]+(?:\.html)?)$
+RewriteRule ^ /html/markdown.html [L]
