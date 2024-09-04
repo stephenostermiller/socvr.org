@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function(){
 	path = path.replace(/[^\/]*$/g,"")
 	while (path != ""){
 		const nav = document.createElement("nav")
-		fetch(location.origin+"/pages"+path+"_nav.csv").then(function(response){
-			response.text().then(function(text){
+		fetch(location.origin+"/pages"+path+"_nav.csv").then(response=>{
+			response.text().then(text=>{
 				text.split(/\n/).forEach(function(line){
 					var m = line.match('^([^,#]+),([a-z0-9.\/\-]+)$')
 					if (m){
@@ -34,6 +34,10 @@ document.addEventListener("DOMContentLoaded", function(){
 	var mdFile = "/pages" + path + ".md"
 	fetch(mdFile).then(response=>response.text()).then(text=>{
 		var m
+		if (/^</.test(text)){
+			// Got back index.html
+			text = "# 404 Not Found\n\nContent for this URL was not found on this server."
+		}
 		if (m = /^# ([^\r\n]*)/.exec(text)){
 			document.querySelector('title').innerText = m[1] + " | socvr.org"
 		}
