@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
 					if (m){
 						var href = m[2]
 						var link = document.createElement("a")
-						link.classList.add("nav-item>")
+						link.classList.add("nav-item")
 						link.innerText = m[1]
 						link.setAttribute('href',href)
 						if (location.pathname.startsWith(href)) link.classList.add('selected')
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		document.getElementById("navigation").prepend(nav)
 		path = path.replace(/[^\/]*\/$/g,"")
 	}
-
+	
 	// Client side routing and markdown
 	var url = location.origin + "/"
 	var path = location.pathname.replace(/\.html$/,"")
