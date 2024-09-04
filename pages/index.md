@@ -1,6 +1,6 @@
 # Welcome to SOCVR!
 
-**S**tack **O**verflow **C**lose **V**ote **R**eviewers is a [Stack Overflow chat room](https://chat.stackoverflow.com/faq) hosting a community of users who are dedicated to improving Stack Overflow through curation of posts on the site and pro-actively reducing the close vote queue length:
+[**S**tack **O**verflow **C**lose **V**ote **R**eviewers](https://chat.stackoverflow.com/rooms/info/41570/so-close-vote-reviewers) is a [Stack Overflow chat room](https://chat.stackoverflow.com/faq) hosting a community of users who are dedicated to improving Stack Overflow through curation of posts on the site and pro-actively reducing the close vote queue length:
 
  - close voting
  - reopen voting
