@@ -1,0 +1,455 @@
+[
+    // === answers ===
+    {
+        type: 'answer',
+        title: 'Spam',
+        body: "Excessive promotion of a specific product/resource may be perceived by the community as **spam**. Take a look at the [help], specially [What kind of behavior is expected of users?](/help/behavior)'s last section: _Avoid overt self-promotion_. You might also be interested in [How to not be a spammer](/help/promotion) and [How do I advertise on $SITENAME$?](//www.stackoverflowbusiness.com/advertising)."
+    },
+    {
+        type: 'answer',
+        title: 'Garbage (non-intelligible gibberish or troll meaningless content)',
+        body: 'This is a garbage post by an 1-rep unregistered user without any meaningful contributions. [Flag as "Rude or abusive"](//meta.stackexchange.com/a/58035) to destroy it quickly without poorly seeding the spam detector.'
+    },
+    {
+        type: 'answer',
+        title: 'Code only answer',
+        body: 'While this code may solve the question, [including an explanation](//meta.stackexchange.com/q/114762) of how and why this solves the problem would really help to improve the quality of your post. Remember that you are answering the question for readers in the future, not just the person asking now. Please [edit] your answer to add explanations and give an indication of what limitations and assumptions apply.'
+    },
+    {
+        type: 'answer',
+        title: 'Me too!',
+        body: "Please don't add _Me too!_ as answers. It doesn't actually provide an answer to the question and can be perceived as noise by its future visitors. If you have a different but related question then [ask](/questions/ask) it (reference this one if it will help provide context). If you're interested in this specific question, you can [upvote](/help/privileges/vote-up) it or leave a [comment](/help/privileges/comment) once you have enough [reputation](/help/whats-reputation)."
+    },
+    {
+        type: 'answer',
+        title: 'Answers just to say Thanks!',
+        body: 'Please don\'t add _"thanks"_ as answers. They don\'t actually provide an answer to the question, and can be perceived as noise by its future visitors. Once you [earn](//meta.stackoverflow.com/q/146472) enough [reputation](/help/whats-reputation), you will gain privileges to [upvote answers](/help/privileges/vote-up) you like. This way future visitors of the question will see a higher vote count on that answer, and the answerer will also be rewarded with reputation points. See [Why is voting important](/help/why-vote).'
+    },
+    {
+        type: 'answer',
+        title: 'Begging for answer',
+        body: 'Posting follow-up requests as answers is not effective at attracting answerers. Read [What should I do if no one answers my question?](//stackoverflow.com/help/no-one-answers) for suggestions to get more attention.'
+    },
+    {
+        type: 'answer',
+        title: 'Addtional info by OP instead of editing the question',
+        body: 'Please use the *Post answer* button only for actual answers. You should modify the original post to add additional information.'
+    },
+    {
+        type: 'answer',
+        title: 'NAAs by < 50 rep',
+        body: 'This does not provide an answer to the question. You can [search for similar questions](/search), or refer to the related and linked questions on the right-hand side of the page to find an answer. If you have a related but different question, [ask a new question](/questions/ask), and include a link to this one to help provide context. See: [Ask questions, get answers, no distractions](/tour)'
+    },
+    {
+        type: 'answer',
+        title: 'NAAs by > 50 rep',
+        body: "This post doesn't look like an attempt to answer this question. Every post here is expected to be an explicit attempt to *answer* this question; if you have a critique or need a clarification of the question or another answer, you can [post a comment](/help/privileges/comment) (like this one) directly below it. Please remove this answer and create either a comment or a new question. See: [Ask questions, get answers, no distractions](/tour)."
+    },
+    {
+        type: 'answer',
+        title: 'Question posted as an answer',
+        body: "This post isn't an actual attempt at answering the question. Please note [$SITENAME$ doesn't work like a discussion forum](/about), it is a Q&A site where every post is either a question or an answer to a question. Posts can also have [comments](/help/privileges/comment) — small sentences like this one — that can be used to critique or request clarification from an author. This should be either a comment or a [new question](/questions/ask)."
+    },
+    {
+        type: 'answer',
+        title: 'Many formatting issues (VLQ)',
+        body: 'Please take a moment to read through the [editing help](/editing-help) in the [help]. Formatting on $SITENAME$ is different than other sites.'
+    },
+    {
+        type: 'answer',
+        title: 'Same answer posted to multiple questions',
+        body: "Please don't add the same answer to multiple questions. Answer the best one and flag the rest as duplicates. See [Is it acceptable to add a duplicate answer to several questions?](//meta.stackexchange.com/q/104227)"
+    },
+    {
+        type: 'answer',
+        title: 'Link only (SO link)',
+        body: 'This should be a comment, not an answer. If it is a duplicate question, [vote to close](/help/privileges/close-questions) as such and/or leave a comment once you [earn](//meta.stackoverflow.com/q/146472) enough [reputation](/help/whats-reputation). If not, *tailor the answer to this specific question*.'
+    },
+    {
+        type: 'answer',
+        title: 'Link only (SE link)',
+        body: "Please don't post link-only answers to other Stack Exchange questions. Instead, include the essential portions of the answer here, and *tailor the answer to this specific question.*"
+    },
+    {
+        type: 'answer',
+        title: 'Link only',
+        body: "A link to a solution is welcome, but please ensure your answer is useful without it: [add context around the link](//meta.stackexchange.com/a/8259) so your fellow users will have some idea what it is and why it's there, then quote the most relevant part of the page you're linking to in case the target page is unavailable. [Answers that are little more than a link may be deleted](/help/deleted-answers)."
+    },
+    {
+        type: 'answer',
+        title: 'Answering off-topic/bad question',
+        body: "Please don't post answers on obviously off topic/bad questions! [See: **Should one advise on off topic questions?**](//meta.stackoverflow.com/q/276572)"
+    },
+    {
+        type: 'answer',
+        title: 'Tool recommendation for a tool request',
+        body: 'Thank you for participating on Stack Overflow. However please note that the question you have answered is off-topic as per the [help/on-topic] since it is a tool request. Answers to such questions tend to be of [poor quality](//meta.stackexchange.com/a/8259) and quickly become stale (what might have been a good resource two years ago may simply not exist anymore). You can flag this question as off-topic by clicking the "flag" link once you have sufficient reputation.'
+    },
+    {
+        type: 'answer',
+        title: 'Pointing out a typo',
+        body: "Please don't post answers only pointing out a typographical issue or a missing character. Such answers are unlikely to help future visitors since they are specific to OP's code. Instead, flag or vote to close the question as off-topic as per the [help/on-topic]."
+    },
+    {
+        type: 'answer',
+        title: 'Data/Code as image',
+        body: "Please add code and data as text ([using code formatting](/editing-help#code)), not images. Images: A) don't allow us to copy-&-paste the code/errors/data for testing; B) don't permit searching based on the code/error/data contents; and [many more reasons](//meta.stackoverflow.com/a/285557). Images should only be used, in addition to text in code format, if having the image adds something significant that is not conveyed by just the text code/error/data."
+    },
+    {
+        type: 'answer',
+        title: 'Code improperly edited by non-OP user (Restore code first)',
+        body: "Edits to other people's code may invalidate questions and answers. Please read [When should I make edits to code?](//meta.stackoverflow.com/q/260245)"
+    },
+    {
+        type: 'answer',
+        title: 'Non English answer',
+        body: 'Please write your answer in English, as [$SITENAME$ is an English site.](//meta.stackexchange.com/q/13676)'
+    },
+    {
+        type: 'answer',
+        title: 'Language, please',
+        body: "I know you're excited, but please try to keep your language under control. Think of Stack Overflow as more like Wikipedia than like Reddit."
+    },
+    {
+        type: 'answer',
+        title: 'Borderline-spam link answer',
+        body: "Please be careful with linking to your own content on different sites, you don't want to be a [spammer](/help/promotion). You should be including the majority of the content here, and use the link only as a reference."
+    },
+    {
+        type: 'answer',
+        title: 'Vandalize your post',
+        body: "Please don't make more work for other people by vandalizing your posts. By posting on the Stack Exchange network, you've granted a non-revocable right, under a [CC BY-SA license (2.5/3.0/4.0)](//stackoverflow.com/help/licensing), for Stack Exchange to distribute that content (i.e. regardless of your future choices). By Stack Exchange policy, the non-vandalized version of the post is the one which is distributed. Thus, any vandalism will be reverted. If you want to know more about deleting a post please see: [How does deleting work?](//meta.stackexchange.com/q/5221)"
+    },
+    {
+        type: 'answer',
+        title: 'Profanity',
+        body: '[Be Nice](/help/be-nice). Do not use profanity gratuitously on the site.'
+    },
+    {
+        type: 'answer',
+        title: 'Offer only 1:1 help',
+        body: 'While helping individuals, we also try to produce a permanent source of future help for others - so answers that produce a tangible record are preferred. Before offering 1:1 help, read [this Meta post](//meta.stackoverflow.com/q/280603) and reconsider making the effort to document the answer. '
+    },
+
+    // === questions (generic) ===
+    {
+        type: 'question',
+        title: 'Spam',
+        body: "Excessive promotion of a specific product/resource may be perceived by the community as **spam**. Take a look at the [help], specially [What kind of behavior is expected of users?](/help/behavior)'s last section: _Avoid overt self-promotion_. You might also be interested in [How to not be a spammer](/help/promotion) and [How do I advertise on $SITENAME$?](/help/advertising)."
+    },
+    {
+        type: 'question',
+        title: 'Vandalism',
+        body: "Please don't make more work for other people by vandalizing your posts. By posting on the Stack Exchange network, you've granted a non-revocable right, under the [CC BY-SA 4.0 license](//creativecommons.org/licenses/by-sa/4.0/), for Stack Exchange to distribute that content (i.e. regardless of your future choices). By Stack Exchange policy, the non-vandalized version of the post is the one which is distributed. Thus, any vandalism will be reverted. If you want to know more about deleting a post please see: [How does deleting work?](//meta.stackexchange.com/q/5221)"
+    },
+    {
+        type: 'question',
+        title: 'Ask good!',
+        body: 'Please see the [ask] help page and [The perfect question](//codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/) blog post by Jon Skeet.'
+    },
+    {
+        type: 'question',
+        title: 'Many formatting issues',
+        body: 'Take a moment to read through the [editing help](/editing-help) in the help center. Formatting on $SITENAME$ is different than on other sites. The better your post looks, the easier it is for others to read and understand it.'
+    },
+    {
+        type: 'question',
+        title: 'Wrong tags',
+        body: 'The tags you have been using are not appropriate for this question. Please take the [tour], review [what are tags and how should I use them?](/help/tagging) and [edit] your post. Remember to at least read the mouseover on the tags you are using when asking a question.'
+    },
+    {
+        type: 'question',
+        title: 'Ask OP to edit question instead of adding info in comments',
+        body: "Please [edit] your post to include any additional information you have to your question. Avoid adding this in the comments, as they are harder to read and can be deleted easier. The edit button for your post is just below the post's tags."
+    },
+    {
+        type: 'question',
+        title: 'Data/Code as image',
+        body: "Please add code and data as text ([using code formatting](/editing-help#code)), not images. Images: A) don't allow us to copy-&-paste the code/errors/data for testing; B) don't permit searching based on the code/error/data contents; and [many more reasons](//meta.stackoverflow.com/a/285557). Images should only be used, in addition to text in code format, if having the image adds something significant that is not conveyed by just the text code/error/data."
+    },
+    {
+        type: 'question',
+        title: 'Code improperly edited by non-OP user (Restore code first)',
+        body: "@code-editor Edits to others' code may invalidate questions and answers. Please read [When should I make edits to code?](//meta.stackoverflow.com/q/260245)."
+    },
+    {
+        type: 'question',
+        title: '"It doesn\'t work" with no exception/error details',
+        body: 'Can you elaborate on how your code "doesn\'t work"? What were you expecting, and what actually happened? If you got an exception/error, post the line it occurred on and the exception/error details which can be done with a [mre]. Please [edit] your question to add these details into it or we may not be able to help.'
+    },
+    {
+        type: 'question',
+        title: 'Too many ways to solve the problem',
+        body: 'There are too many ways to approach this problem. The answers would just turn into a straw-poll for which one people liked. The best thing is to do some research on the topic yourself, find two or three, _analyze_ them, determine if they work for you or not, and _try them out_. Come to us when you have a specific question about something you have attempted to do.'
+    },
+    {
+        type: 'question',
+        title: '"Need to make program" but no question',
+        body: "All that has been posted is a program description, but that doesn't tell us what _problem_ you're having. What have you tried, and what troubles did you encounter? Please [edit] your post to include a [valid question](/help/how-to-ask) that we can answer. Reminder: make sure you know what is [on-topic](/help/on-topic); asking us to write the program for you, opinions, and external links are off-topic."
+    },
+    {
+        type: 'question',
+        title: 'Need to make changes to existing (missing) code',
+        body: "We won't know how to make the changes to your existing code base without seeing your original code. Please post a [mre], and fully explain what needs to be modified."
+    },
+    {
+        type: 'question',
+        title: 'Wall of code',
+        body: 'You seem to have posted more code than what would be reasonable for your issue. Please read [ask] and how to make a [mre]; providing a MRE helps users answer your question and future users relate to your issue.'
+    },
+    {
+        type: 'question',
+        title: '"Where do I start?" question',
+        body: 'Questions that ask "where do I start?" are typically too broad and are not a good fit for this site. People have their own method for approaching the problem and because of this there cannot be a _correct_ answer. Give a good read over [Where to Start](//softwareengineering.meta.stackexchange.com/a/6367) and [edit] your post.'
+    },
+    {
+        type: 'question',
+        title: 'More than one question asked',
+        body: 'It is preferred if you can post separate questions instead of combining your questions into one. That way, it helps the people answering your question and also others hunting for at least one of your questions.'
+    },
+    {
+        type: 'question',
+        title: 'Asking for code translation',
+        body: '$SITENAME$ is a Q&A site, not a code translation service. Try to translate the code yourself first, then come to us when you are stuck, making sure to show us what you have tried and create a [mre].'
+    },
+    {
+        type: 'question',
+        title: 'Non English question',
+        body: 'Please write your question in English, as [$SITENAME$ is an English only site.](//meta.stackexchange.com/q/13676). There are other versions of Stack Overflow in [Português](//pt.stackoverflow.com), [Español](//es.stackoverflow.com), [русский](//ru.stackoverflow.com), and [日本語](//ja.stackoverflow.com).'
+    },
+    {
+        type: 'question',
+        title: 'Software Rec. question',
+        body: 'Unfortunately, questions asking us to recommend or find a book, tool, software library, tutorial or other off-site resource are off-topic here. However, you may find better luck [SoftwareRecs.SE](//softwarerecs.stackexchange.com/tour). Remember to read [their question requirements](//softwarerecs.stackexchange.com/help/on-topic) as they are more strict than this site!'
+    },
+    {
+        type: 'question',
+        title: 'CodeReview question',
+        body: 'It seems that your code currently works, and you are looking to improve it. Generally these questions are too opinionated for this site, but you might find better luck at [CodeReview.SE](//codereview.stackexchange.com/tour). Remember to read [their requirements](//codereview.stackexchange.com/help/on-topic) as they are a bit more strict than this site.'
+    },
+    {
+        type: 'question',
+        title: 'Homework question without effort',
+        body: "Questions asking for homework help must include a summary of the work you've done so far to solve the problem, and a description of the difficulty you are having solving it. Please read [How to ask homework questions](//meta.stackoverflow.com/q/334822) and [edit] your post."
+    },
+    {
+        type: 'question',
+        title: 'Demanding urgency of volunteers',
+        body: 'Please read [Under what circumstances may I add “urgent” or other similar phrases to my question, in order to obtain faster answers?](//meta.stackoverflow.com/q/326569) - the summary is that this is not an ideal way to address volunteers, and is probably counterproductive to obtaining answers. Please refrain from adding this to your questions.'
+    },
+    {
+        type: 'question',
+        title: 'Possible suicide Intl',
+        body: "It sounds like you're going through a hard time. I'd really like to help you, but unfortunately, we're not well equipped to do so here. Your best option is probably to call [a suicide hotline](//suicide.org/international-suicide-hotlines.html). People are on call there to talk to people struggling with the same kind of issues you are, regardless of location. If calling is not good, you can [chat with them live online](//suicidepreventionlifeline.org/chat/). It might not help, but what’s the harm?"
+    },
+    {
+        type: 'question',
+        title: 'Possible suicide US',
+        body: "It sounds like you’re going through a really hard time. I'd really like to help you, but unfortunately, we're not well-equipped to do so here. Your best option is probably to call the [National Suicide Prevention Lifeline](//suicidepreventionlifeline.org/). People are on call there to talk to people struggling with the same kind of issues you are, regardless of location. US: +1-800-273-8255. If calling is not good, they can [chat with you live online](//suicidepreventionlifeline.org/chat/). It might not help, but what’s the harm?"
+    },
+    {
+        type: 'question',
+        title: 'Can someone help? not an actual question',
+        body: 'Questions that ask "please help me" tend to be looking for highly localized guidance, or in some cases, ongoing or private assistance, which is not suited to our Q&A format. It is also rather vague, and is better replaced with a more specific question. Please read [Why is "Can someone help me?" not an actual question?](//meta.stackoverflow.com/q/284236).'
+    },
+    {
+        type: 'question',
+        title: 'Gender assumptions of readers',
+        body: 'Please try to avoid gender assumptions about software engineers, as it can be unwelcoming. We tend to trim greetings and salutations anyway.'
+    },
+    {
+        type: 'question',
+        title: 'Too chatty for technical writing',
+        body: "Note that we prefer a technical style of writing here. We gently discourage greetings, hope-you-can-helps, thanks, advance thanks, notes of appreciation, regards, kind regards, signatures, please-can-you-helps, chatty material and abbreviated txtspk, pleading, how long you've been stuck, voting advice, meta commentary, etc. Just explain your problem, and show what you've tried, what you expected, and what actually happened."
+    },
+    {
+        type: 'question',
+        title: 'Give me a regex that does X',
+        body: 'Questions that ask ["Give me a regex that does X"](//meta.stackoverflow.com/q/285733) with no attempt are off topic on Stack Overflow.'
+    },
+    {
+        type: 'question',
+        title: 'Parsing html with regex',
+        body: "[Please don't try to parse HTML with regex. Use an HTML parser instead.](//stackoverflow.com/a/1732454)"
+    },
+    {
+        type: 'question',
+        title: '(Generic) SQL Injection - author using string to build command',
+        body: "Do not use string concatenation to create an SQL command. Use parameterized statements. See [why it's a bad idea and how to fix it](//bobby-tables.com)."
+    },
+    {
+        type: 'question',
+        title: 'Show your code, not tell',
+        body: 'Rather than _describing_ your code, it would be better to _show_ your code with a [mre].'
+    },
+    {
+        type: 'question',
+        title: 'External Repo',
+        body: "Questions that require reviewing content on a website or other external sources are off-topic here. When a link becomes obsolete, the question is no longer useful to future readers. We are trying to build a lasting repository of useful question/answer pairs here. Please review [Something in my web site or project doesn't work. Can I just paste a link to it?](https://meta.stackoverflow.com/questions/254428/) for more information."
+    },
+    {
+        type: 'question',
+        title: 'Revise Title',
+        body: 'Please [edit] the title of your question to be descriptive, unambiguous, and specific to what you are asking. For more guidance, see [How do I write a good title?](https://meta.stackexchange.com/q/10647)'
+    },
+
+    // === questions (PHP) ===
+    {
+        type: 'question',
+        title: '(PHP) What errors?',
+        body: 'What do you mean by "not working"? Do you get any errors? Add [error reporting](//php.net/manual/function.error-reporting.php) at the top of your file(s): `ini_set("display_errors", 1); error_reporting(E_ALL);` and tell us what you get.'
+    },
+    {
+        type: 'question',
+        title: '(PHP) mysql_* API',
+        body: "[**Please don't use `mysql_*` functions in new code**](//stackoverflow.com/q/12859942)! They are no longer maintained [and are officially deprecated](//wiki.php.net/rfc/mysql_deprecation). See the [**red box**](//php.net/manual/function.mysql-connect.php)? Learn about [*prepared statements*](//en.wikipedia.org/wiki/Prepared_statement) instead, and use [PDO](//php.net/pdo) or [MySQLi](//php.net/mysqli) - [this article](//php.net/manual/mysqlinfo.api.choosing.php) can help you choose. If you go with PDO, [here is a good tutorial](http://wiki.hashphp.org/PDO_Tutorial_for_MySQL_Developers)."
+    },
+    {
+        type: 'question',
+        title: '(PHP) SQL Injection',
+        body: '[Your script is at risk for SQL Injection Attacks.](//stackoverflow.com/q/60174)'
+    },
+
+    // === questions (R) ===
+    {
+        type: 'question',
+        title: '(R) Reproducible Example',
+        body: 'Please [edit] your question to provide a [minimal reproducible example of your code and data along with relevant errors](https://stackoverflow.com/collectives/r-language/articles/76995406/how-to-write-a-good-r-question-with-a-reproducible-example) so that readers can run your code to answer your question.'
+    },
+    {
+        type: 'question',
+        title: '(R) Example data',
+        body: 'It will be much easier to help if you provide at least a short, representative sample of your data. Please [edit] your question and paste the output of the `dput(data)` command (preferred) or in tab delimited form. This will help users here answer your question.'
+    },
+    {
+        type: 'question',
+        title: '(R) Statistics / Data Science',
+        body: 'It seems that your question focuses on data analysis, visualization or statistics. $SITENAME$ is a site that focuses on practical *programming* questions. Thus, your question is not a good fit here. Some such questions may be on-topic for [Cross Validated](https://stats.stackexchange.com/help/on-topic) or [Data Science Stack Exchange](https://datascience.stackexchange.com/help/on-topic), but please review their respective help centers before posting.'
+    },
+
+    // === custom close reasons ===
+    {
+        type: 'close reason',
+        title: 'Licensing',
+        body: "I'm voting to close this question as off-topic because [licensing advice is off-topic on $SITENAME$.](//meta.stackoverflow.com/a/274964). Open source licensing questions can be asked on [OpenSource.SE](//opensource.stackexchange.com/help/on-topic). Legal questions may be asked on [Law.SE](//law.stackexchange.com/)."
+    },
+    {
+        type: 'close reason',
+        title: 'We are not Customer Support',
+        body: "I'm voting to close this question as off-topic because [Stack Overflow cannot answer customer support questions](//meta.stackoverflow.com/questions/255745). Please consider contacting customer support for the company in question with your issues."
+    },
+    {
+        type: 'close reason',
+        title: 'SEO',
+        body: 'This question appears to be off-topic because it is about SEO. Please read "[Which SEO questions should be closed as non-programming/non-admin?](//meta.stackoverflow.com/a/382618)" to better understand when SEO questions are acceptable to ask here (most are not). General SEO questions may be asked on [Webmasters.SE](//webmasters.stackexchange.com/).'
+    },
+    {
+        type: 'close reason',
+        title: 'Project Management',
+        body: "I'm voting to close this question because [project management is off-topic on $SITENAME$.](//meta.stackoverflow.com/a/343841) You can ask these questions on [SoftwareEngineering.SE](//softwareengineering.stackexchange.com) and [ProjectManagement.SE](//pm.stackexchange.com)."
+    },
+    {
+        type: 'close reason',
+        title: 'General App Store Policy',
+        body: "I'm voting to close this because questions about [app store policies are off-topic on $SITENAME$](//meta.stackoverflow.com/q/272165). You will need to ask the company itself about their policies, as they are subject to change."
+    },
+    {
+        type: 'close reason',
+        title: 'Apple iTunes Store Policy',
+        body: "I'm voting to close this question because questions about [iTunes App Store policies are off-topic on $SITENAME$](//meta.stackoverflow.com/q/272165). Some questions may be on topic at [Apple.SE](//apple.stackexchange.com/help/on-topic)."
+    },
+    {
+        type: 'close reason',
+        title: 'SW Dev Process & SW Eng',
+        body: "I'm voting to close this question because questions about the software development process and software engineering, including quality assurance, architecture & design are off topic on $SITENAME$. You might try posting on [SoftwareEngineering.SE](//meta.stackoverflow.com/a/254571)."
+    },
+    {
+        type: 'close reason',
+        title: 'Intent to hack or scrape from specific site, e.g. YouTube',
+        body: "I'm voting to close this question as off-topic because the question subject and content violate the [StackOverflow Terms of Service sect 3 c) and/or e)](//stackexchange.com/legal/terms-of-service#3SubscriberContent) by targeting a specific organization with intent to expropriate proprietary data."
+    },
+    {
+        type: 'close reason',
+        title: 'Linked to site instead of providing MRE',
+        body: "I'm voting to close this question as off-topic because you only provided a link to your website instead of code. Please read [this Meta discussion about why we need the code in your question](https://meta.stackoverflow.com/a/254430) and [edit] a [mre] in."
+    },
+
+    // === custom edit rejections ===
+    {
+        type: 'custom edit rejection',
+        title: 'Incomplete edit',
+        body: "If you're going to edit a post, fix all the issues not just some."
+    },
+    {
+        type: 'custom edit rejection',
+        title: 'Bumping old posts',
+        body: 'Do not make minor edits to old posts. It bumps them to the homepage.'
+    },
+    {
+        type: 'custom edit rejection',
+        title: '`BackTicks`',
+        body: 'Do not edit just to add backticks. Edit posts that need substantial improvements.'
+    },
+    {
+        type: 'custom edit rejection',
+        title: 'Closed questions',
+        body: 'Do not edit closed questions, unless it brings the question on topic.'
+    },
+    {
+        type: 'custom edit rejection',
+        title: 'Minor grammar',
+        body: 'Do not edit to make minor grammar changes. Edit posts that need substantial improvements.'
+    },
+    {
+        type: 'custom edit rejection',
+        title: 'Bulk tag edits',
+        body: 'Do not make [bulk tag edits](//meta.stackoverflow.com/q/307928).'
+    },
+    {
+        type: 'custom edit rejection',
+        title: 'Code improperly edited by non-OP user (Restore code first)',
+        body: "Edits to others' code may invalidate questions and answers. Please read [When should I make edits to code?](//meta.stackoverflow.com/q/260245)"
+    },
+
+    // === edit summary questions ===
+    {
+        type: 'edit summary question',
+        title: 'SOLVED!',
+        body: "Please don't put the answer in your question; You can self-answer as per https://$SITEURL$/help/self-answer your question if you found the solution;"
+    },
+    {
+        type: 'edit summary question',
+        title: 'i capitalization',
+        body: 'Capitalize the first person singular pronoun as per https://english.stackexchange.com/q/172;'
+    },
+    {
+        type: 'edit summary question',
+        title: "it's / its",
+        body: "it's and its are different; please see https://english.stackexchange.com/q/653;"
+    },
+    {
+        type: 'edit summary question',
+        title: 'Formatting',
+        body: 'See how you can format and indent your code correctly as per https://stackoverflow.com/help/formatting;'
+    },
+    {
+        type: 'edit summary question',
+        title: 'Hi, and thanks!',
+        body: 'Hi, thanks, etc. are considered noise as per https://meta.stackexchange.com/q/2950;'
+    },
+    {
+        type: 'edit summary question',
+        title: 'CAPS',
+        body: "You don't have to scream;"
+    },
+    {
+        type: 'edit summary question',
+        title: 'New question',
+        body: "If you have a new question, please don't edit it over your old one - ask one here from https://stackoverflow.com/questions/ask;"
+    },
+    {
+        type: 'edit summary question',
+        title: 'Destroying content',
+        body: "Please don't destroy content on $SITENAME$;"
+    }
+]

@@ -7,6 +7,19 @@ There are a bunch of [useful userscripts for Stack Overflow out there](https://s
 - [How to install a userscript?](https://greasyfork.org/en/help/installing-user-scripts)
  - With [Tampermonkey](https://www.tampermonkey.net/), [Violentmonkey](https://violentmonkey.github.io/), or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) installed, from a GitHub userscript page you can [click the "Raw" button](/images/75kID.gif "GIF showing what happens in Tampermonkey when you click the 'Raw' button"). (Greasemonkey is recommended against, due to general userscript compatibility issues.)</dd>
 
+### Auto Comments
+
+Do you use [AutoReviewComments - Pro-forma comments for SE](https://stackapps.com/questions/2116)? SOCVR has a collection of canned comments we often use during moderation. You can use them as a remote in script.
+
+1. Copy the URL for the site you want
+  * [stackoverflow.com](/comments/stackoverflow.com.jsonp)
+  * [meta.stackoverflow.com](/comments/meta.stackoverflow.com.jsonp)
+  * [musicfans.stackoverflow.com](/comments/musicfans.stackexchange.com.jsonp)
+2. Open the Auto Comments dialog and click "remote" at the bottom.
+3. Paste in the url, check "auto-get", and click save.
+
+Please be aware that this will overwrite all local entries with the server's, and will overwrite it every time the dialog opens. If you have custom comments you want to keep, commit them to this website's repository or don't use this feature.
+
 ### <a id="our-scripts" href="#our-scripts" class="hover-visible"></a>Our own scripts
 
 ##### See [our GitHub userscript repository](https://github.com/SO-Close-Vote-Reviewers/UserScripts) with the full list of our scripts!
