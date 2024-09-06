@@ -1,3 +1,4 @@
+callback(
 [
     // === questions ===
     {
@@ -21,3 +22,4 @@
         body: '[Voting on meta is different](//stackoverflow.com/help/whats-meta). Votes are often used to express (dis)agreement with the general premise of the Meta question. These votes *won\'t affect* your main site reputation.'
     }
 ]
+)

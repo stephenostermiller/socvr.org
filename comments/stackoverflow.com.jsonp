@@ -1,3 +1,4 @@
+callback(
 [
     // === answers ===
     {
@@ -453,3 +454,4 @@
         body: "Please don't destroy content on $SITENAME$;"
     }
 ]
+)
